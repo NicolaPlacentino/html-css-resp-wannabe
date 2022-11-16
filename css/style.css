@@ -128,12 +128,12 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media screen and (max-width:768px){
+.container{
+    width: 100%;
+    max-width: 1140px;
+}
 
-    .container{
-        max-width: 730px;
-        padding: 0;
-    }
+@media screen and (max-width:768px){
 
     .row{
         justify-content: space-evenly;
@@ -149,10 +149,6 @@ img {
 }
 
 @media screen and (max-width:576px){
-
-    .container{
-        max-width: 480px;
-    }
 
     .row{
         flex-direction: column;
